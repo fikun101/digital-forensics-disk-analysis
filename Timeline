@@ -1,0 +1,36 @@
+# Investigation Timeline & Chain of Custody
+
+## 📅 Case Timeline
+| Date         | Activity                                                                 |
+|--------------|--------------------------------------------------------------------------|
+| 20/03/2025   | Evidence image assigned and prepared for analysis                        |
+| 21/03/2025   | Disk image loaded into Autopsy; hash values calculated (MD5, SHA-256)   |
+| 21–23/03/2025| Full disk analysis: partitions, browser activity, user profile, programs |
+| 23/03/2025   | Final integrity hash re-verified, confirming image unchanged             |
+| 24/03/2025   | Findings documented; PDF report and contemporaneous notes finalized       |
+
+---
+
+## 🔐 Hash Verification
+Hashing was conducted to ensure forensic soundness and continuity of evidence.
+- **Before Analysis**:
+  - MD5: `hash_md5_original`
+  - SHA-256: `hash_sha256_original`
+- **After Analysis**:
+  - MD5: `hash_md5_final`
+  - SHA-256: `hash_sha256_final`
+
+✅ **Result**: All hash values matched. The disk image was not altered during investigation.
+
+---
+
+## 🔗 Chain of Custody Protocol
+- Evidence image stored in a secure, access-controlled location.
+- Write-blocking methods employed to prevent any accidental or intentional modification.
+- All actions logged and attributed to forensic examiner (Ahonsi Vincent Oluwafeyikunayomi).
+- Analysis conducted exclusively on forensic duplicates to preserve the original image.
+
+---
+
+## Summary
+A structured timeline and strict adherence to chain of custody principles ensured the forensic process remained legally admissible, transparent, and tamper-proof from acquisition through reporting.
